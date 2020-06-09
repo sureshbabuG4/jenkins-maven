@@ -26,19 +26,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>windows10-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release1-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>windows10-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-release1-local</url>
-    </snapshotRepository>
-</distributionManagement>
-
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
